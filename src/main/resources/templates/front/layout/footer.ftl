@@ -1,15 +1,12 @@
-<footer>
+<footer style="background-color:#3366CC">
   <div class="container">
-    <p>
-      更实用的Java语言开发的论坛&nbsp;|&nbsp;
-      <a href="https://github.com/tomoya92/pybbs" target="_blank">开源地址</a>&nbsp;|&nbsp;
-      <a href="https://tomoya92.github.io/pybbs/#/" target="_blank">文档地址</a>
-      <span class="pull-right"><a href="/adminlogin" target="_blank">登录后台</a></span>
+    <p style="color:#000000">
+      JUST DO IT.
     </p>
-    <div>
-      &copy;2018 tomoya&nbsp;
-      <span class="pull-right">
-        powered by <a href="https://github.com/tomoya92/pybbs" target="_blank">pybbs</a>
+    <div class="footer-version">
+      &copy;2019 tomoya&nbsp;
+      <span class="pull-right" >
+        powered by <a href="https://www.chengym.info" target="_blank"><img src="/static/images/c_logo.jpg"></a>
       </span>
     </div>
   </div>

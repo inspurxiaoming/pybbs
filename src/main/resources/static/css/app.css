@@ -77,3 +77,10 @@ footer {
 .payload img,.user_comments img{max-width:100%}
 .fa-thumbs-up, .fa-thumbs-o-up, .fa-reply {cursor: pointer;}
 .fa-thumbs-up {color: #61a7e2;}
+.navbar-default .navbar-nav>.active>a{color: #000}
+.navbar-default .navbar-nav>li>a{color:#fff}
+.navbar-default .navbar-brand{color:#ffffff}
+.container .footer-version>p{color:#000000}
+.container .footer-version{color:#000000}
+.container .footer-version>span>a>img{height:20px;border-radius:15px}
+.navbar-default .navbar-brand:hover{color:#000000}

@@ -1,5 +1,5 @@
 <#macro header page_tab>
-<nav class="navbar navbar-default" style="border-radius: 0">
+<nav class="navbar navbar-default" style="border-radius: 0;background-color:#3366CC">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">${site.name}</a>
+      <a class="navbar-brand" href="/"><img src="/static/images/logoc.png" style="height: 20px;margin-top: -4px;display:inline-block">${site.name}</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
