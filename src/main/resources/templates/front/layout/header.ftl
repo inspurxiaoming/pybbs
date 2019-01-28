@@ -17,6 +17,7 @@
       <ul class="nav navbar-nav">
         <li <#if page_tab == "index">class="active"</#if>><a href="/">首页</a></li>
         <li <#if page_tab == "tags">class="active"</#if>><a href="/tags">标签</a></li>
+          <li <#if page_tab == "technology">class="active"</#if>><a href="/technology">科技</a></li>
       </ul>
       <#if site.search == "1">
         <form class="navbar-form navbar-left" action="/search" method="get">

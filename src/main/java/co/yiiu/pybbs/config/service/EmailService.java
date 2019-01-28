@@ -96,6 +96,7 @@ public class EmailService implements BaseService<Session> {
       Transport.send(message);
       return true;
     } catch (MessagingException e) {
+      e.printStackTrace();
       log.error(e.getMessage());
       return false;
     }

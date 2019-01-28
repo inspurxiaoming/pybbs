@@ -77,6 +77,11 @@ public class IndexController extends BaseController {
     model.addAttribute("page", page);
     return "front/tag/tags";
   }
+  @GetMapping("/technology")
+  public String technology(@RequestParam(defaultValue = "all") String tab, @RequestParam(defaultValue = "1") Integer pageNo, Model model){
+    // 再查一遍，保证数据的最新
+    return "front/technology/technology";
+  }
 
   // 登出
   @GetMapping("/logout")

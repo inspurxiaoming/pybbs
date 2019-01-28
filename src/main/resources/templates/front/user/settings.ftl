@@ -135,7 +135,7 @@
   </div>
   <div class="col-md-3">
     <#include "../components/user_info.ftl"/>
-    <#include "../components/token.ftl"/>
+    <#--<#include "../components/token.ftl"/>-->
   </div>
 </div>
 <script>
