@@ -79,7 +79,8 @@ public class IndexController extends BaseController {
   }
   @GetMapping("/technology")
   public String technology(@RequestParam(defaultValue = "all") String tab, @RequestParam(defaultValue = "1") Integer pageNo, Model model){
-    // 再查一遍，保证数据的最新
+    model.addAttribute("tab", tab);
+    model.addAttribute("pageNo", pageNo);
     return "front/technology/technology";
   }
 
